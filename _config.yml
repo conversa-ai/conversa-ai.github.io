@@ -1,7 +1,7 @@
 title: "Conversa AI Research"
 theme: minima
 nav:
-  - Home: index.md
+
   - Corpus: corpus.md
   - Bias & Models: bias.md
   - Demonstrators: demos.md
