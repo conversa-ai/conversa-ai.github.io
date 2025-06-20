@@ -4,8 +4,6 @@ title: "Conversa AI Research"
 permalink: /
 ---
 
-# Conversa AI Research
-
 Welcome to the Conversa AI research site. Here you’ll find resources on our multilingual dialogue corpus, bias studies, and demonstrators of our dialogue systems.
 
 ## Sections
