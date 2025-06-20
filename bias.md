@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Bias Annotation & Detection"
+permalink: /bias/
 ---
 
 # Bias Annotation & Detection

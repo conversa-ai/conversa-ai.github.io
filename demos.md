@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Dialogue System Demonstrators"
+permalink: /demos/
 ---
 
 # Dialogue System Demonstrators

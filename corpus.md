@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Multilingual Dialogue Corpus"
+title: 
+permalink: /corpus/
 ---
 
 # Multilingual Dialogue Corpus

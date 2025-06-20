@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 title: "Conversa AI Research"
+permalink: /
 ---
 
 # Conversa AI Research
