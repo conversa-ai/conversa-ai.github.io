@@ -1,36 +1,52 @@
-# _config.yml – Alembic-based setup
+# _config.yml — Minimal Mistakes version
 title: "Conversa AI Research"
-description: "Corpus, bias studies and demonstrators for Spanish, Catalan, Basque & Galician dialogue research."
-remote_theme: "daviddarnes/alembic@main"   # switch from ‘minima’ to Alembic
+description: "Dialogue corpora, bias resources and demonstrators for Spanish, Catalan, Basque & Galician."
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
-# Where the site lives
-url: "https://conversa-ai.github.io"        # full domain
-baseurl: ""                                 # leave empty when served from repo root
-permalink: /:title/                         # clean URLs
+# Optional: site address (needed if you plan canonical URLs or SEO)
+url: "https://conversa-ai.github.io"
+baseurl: ""          # keep empty for org-site root
 
-# Header navigation (Alembic uses `navigation:` list of objects)
+# --------------------------
+# Primary navigation (top bar)
+# --------------------------
 navigation:
-  - text: "Corpus"
-    url:  /corpus
-  - text: "Bias & Models"
-    url:  /bias
-  - text: "Demonstrators"
-    url:  /demos
-  - text: "Publications"
-    url:  /publications
+  - title: "Corpus"
+    url:   /corpus/
+  - title: "Bias & Models"
+    url:   /bias/
+  - title: "Demonstrators"
+    url:   /demos/
+  - title: "Publications"
+    url:   /publications/
 
-# Collections (optional—enable blog posts if you want them)
-collections:
-  posts:
-    output: true
-
-# Recommended plugins for Alembic on GitHub Pages
+# --------------------------
+# Plugins GitHub Pages allows
+# --------------------------
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme           # required for `remote_theme`
+  - jekyll-remote-theme
+  - jekyll-include-cache     # required by Minimal Mistakes
 
-# Files/folders to ignore when the site builds
+# --------------------------
+# Defaults: every page gets the “page” layout unless overridden
+# --------------------------
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      author_profile: false
+
+# --------------------------
+# Build / housekeeping
+# --------------------------
+permalink: /:title/          # clean URLs without dates
+paginate_path: /page:num/
+markdown: kramdown
+highlighter: rouge
+
 exclude:
   - README.md
   - Gemfile
